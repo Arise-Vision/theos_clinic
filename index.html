@@ -513,8 +513,7 @@
   <script type="text/javascript" src="js/bootstrap.js"></script>
 
   <script>
-    // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-    // Australia.
+    window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
     function initMap () {
       var map = new google.maps.Map( document.getElementById( 'map' ), {
         zoom: 11,
