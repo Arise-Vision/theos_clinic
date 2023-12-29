@@ -197,6 +197,13 @@ a:focus {
   background-repeat: no-repeat;
 }
 
+.slider_image {
+  padding: 0;
+  top: 0;
+  width: 100%;
+  height: 30rem;
+}
+
 .services_bg {
   position: relative;
   background-image: url(../images/tool.png);
@@ -389,7 +396,7 @@ a:focus {
   }
 }
 
-.service_section .row .col-md-3 {
+.service_section .row .col-md-4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -412,14 +419,14 @@ a:focus {
   margin: 1rem 5rem;
 }
 
-.service_section .row .col-md-3 {
+.service_section .row .col-md-4 {
   border: 1px solid #023b4807;
   border-radius: 0.8rem;
   transition: all ease-in-out 1s;
   box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, 0.1);
 }
 
-.service_section .row .col-md-3 {
+.service_section .row .col-md-4 {
   padding: .3rem 1rem;
   height: 30rem;
   overflow: hidden;
@@ -437,10 +444,10 @@ a:focus {
   height: 100%;
 }
 
-.service_section .row .col-md-3:hover {
+.service_section .row .col-md-4:hover {
   transform: scale(0.9);
   border: #0dc3ff solid 1px;
-  overflow-y: scroll;
+  overflow-y: hidden;
   overflow-x: hidden;
 }
 
